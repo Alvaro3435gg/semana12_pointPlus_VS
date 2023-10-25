@@ -1,0 +1,11 @@
+.contenedorTarjeta{
+    width: 40vw;
+    height: 25vh;
+    background-color: #545459;
+    margin: 25px;
+}
+.topBar{
+    width: 100%;
+    height: 25%;
+    background-color: #d08686;
+}

@@ -1,0 +1,14 @@
+.Box{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /*80vw;*/
+    height: 10vh; /*10vh;*/
+    background-color: #FBF7C2;
+    margin: 25px;
+
+    border: 2px #d5d09d;
+    font-family: "Arial", sans-serif;
+    font-size: 200%; /*1.5em;*/
+}

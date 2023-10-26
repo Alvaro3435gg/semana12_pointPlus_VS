@@ -1,0 +1,20 @@
+.Bckg_Logo {
+    background-color: #FBF7C2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /*Cambia esto al ancho deseado */
+    height: auto;
+    border-radius: 40%;
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+    height: auto;  /* Esto mantendrá la proporción de la imagen */
+}

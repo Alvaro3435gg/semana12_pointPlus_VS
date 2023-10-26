@@ -1,5 +1,4 @@
 import React from 'react';
-import logini from './assets/logini.svg'; // Asegúrate de que la ruta coincida con la ubicación de tu archivo SVG.
 import './App.css';
 
 const ShoppingScreen = () => {

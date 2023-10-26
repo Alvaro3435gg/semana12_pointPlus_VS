@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Barra de navegación */
+.navbar {
+  background-image: url('./assets/Logini.svg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+  top: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Contenido principal */
+.content {
+  padding-top: 0px;
+  /* Agrega espacio superior para evitar que el contenido se superponga con la barra de navegación */
+}

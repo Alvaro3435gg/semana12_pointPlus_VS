@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import ShoppingScreen from './ShoppingScreen.jsx';
 import About from './About';
 import './App.css';
+import Button from "./Button.jsx";
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
                         <Route path="/" element={<ShoppingScreen />} />
                         <Route path="/about" element={<About />} />
                     </Routes>
+                    <div>
+                        <Button />
+                    </div>
                 </div>
             </div>
         </Router>

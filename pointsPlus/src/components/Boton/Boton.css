@@ -1,0 +1,23 @@
+.Boton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    transition: transform 0.3s;
+    background-color: #0071F7; /* Color de fondo azul */
+    color: white;              /* Color de texto blanco */
+    padding: 10px 20px;        /* Espaciado interno */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    cursor: pointer;           /* Cambiar cursor a mano al pasar por encima */
+
+    font-family: "Arial", sans-serif;
+    font-size: 140%; /*1.5em;*/
+}
+
+/* Estilo para cuando se pasa el cursor por encima del botón */
+.Boton:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+}

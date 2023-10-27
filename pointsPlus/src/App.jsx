@@ -4,6 +4,7 @@ import ShoppingScreen from './components/ShoppingScreen.jsx';
 import CodePage from './components/CodePage.jsx';
 import './components/App.css';
 import CameraPage from "./components/CameraPage.jsx";
+import Login from "./components/Login.jsx";
 
 function App() {
     return (
@@ -13,14 +14,18 @@ function App() {
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/">shoppingScreen</Link>
+                                <Link to="/">Login</Link>
+                            </li>
+                            <li>
+                                <Link to="/shopping">shopping</Link>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div className="content">
                     <Routes>
-                        <Route path="/" element={<ShoppingScreen />} />
+                        <Route path="/" element={<Login />} />
+                        <Route path="/shopping" element={<ShoppingScreen />} />
                         <Route path="/code" element={<CodePage />} />
                         <Route path="/camera" element={<CameraPage />} />
                     </Routes>

@@ -13,12 +13,6 @@ function App() {
                 <div className="navbar">
                     <nav>
                         <ul>
-                            <li>
-                                <Link to="/">Login</Link>
-                            </li>
-                            <li>
-                                <Link to="/shopping">shopping</Link>
-                            </li>
                         </ul>
                     </nav>
                 </div>

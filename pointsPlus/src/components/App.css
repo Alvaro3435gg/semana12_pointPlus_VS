@@ -113,7 +113,7 @@
 }
 
 .circle p {
-  margin-top: 27vh; /* Elimina el margen superior para que esté justo debajo del círculo */
+  margin-top: 27vh;
   font-size: 14px;
   color: black;
   left: 0;
@@ -124,9 +124,9 @@
 /* Code Page */
 
 .aquiVaElQR {
-  width: 200px; /* Ajusta el ancho del rectángulo según tus necesidades */
-  height: 200px; /* Ajusta la altura del rectángulo según tus necesidades */
-  background: white; /* Color de fondo blanco */
+  width: 50vw;
+  height: 50vh;
+  background: white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,9 +136,9 @@
 /* Camera Page */
 
 .aquiVaLaCamara {
-  width: 200px; /* Ajusta el ancho del rectángulo según tus necesidades */
-  height: 200px; /* Ajusta la altura del rectángulo según tus necesidades */
-  background: red; /* Color de fondo blanco */
+  width: 50vw;
+  height: 50vh;
+  background: red;
   position: absolute;
   top: 50%;
   left: 50%;

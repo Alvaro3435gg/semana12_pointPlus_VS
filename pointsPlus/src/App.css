@@ -1,3 +1,4 @@
+/*
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -41,7 +42,7 @@
   color: #888;
 }
 
-/* Barra de navegación */
+!* Barra de navegación *!
 .navbar {
   background-image: url('./assets/Logini.svg');
   background-size: contain;
@@ -77,6 +78,7 @@
   color: black;
 }
 
-/* shopping screen */
+!* shopping screen *!
 
 
+*/

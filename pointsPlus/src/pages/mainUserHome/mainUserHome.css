@@ -1,0 +1,34 @@
+*{
+    /*We shoudl actually add a normalize file*/
+    margin: 0;
+    padding: 0;
+}
+
+.mainUserHomeMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background:
+            linear-gradient(135deg,#0000 18.75%,#ffffff 0 31.25%,#0000 0),
+            repeating-linear-gradient(45deg,#ffffff -6.25% 6.25%,#0071f7 0 18.75%);
+    background-size: 64px 64px;
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+}
+.mainButtonsContainer{
+
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vw;
+
+}

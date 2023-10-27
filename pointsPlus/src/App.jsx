@@ -2,21 +2,22 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import ShoppingScreen from './ShoppingScreen.jsx';
 import About from './About';
-import './App.css';
+/*import './App.css';*/
 import Button from "./Button.jsx";
+import MainUserHome from "./pages/mainUserHome/mainUserHome.jsx";
 
 function App() {
     return (
-        <Router>
+       /* <Router>
             <div className="app-container">
                 <div className="navbar">
                     <nav>
                         <ul>
                             <li>
-                                <Link to="/">+</Link>
+                                <Link to="/"></Link>
                             </li>
                             <li>
-                                <Link to="/about">+</Link>
+                                <Link to="/about"></Link>
                             </li>
                         </ul>
                     </nav>
@@ -32,7 +33,8 @@ function App() {
                     </div>
                 </div>
             </div>
-        </Router>
+        </Router>*/
+        <><MainUserHome/></>
     );
 }
 

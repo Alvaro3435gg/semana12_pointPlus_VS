@@ -27,7 +27,8 @@ function App() {
                         <Route path="/about" element={<About />} />
                     </Routes>
                     <div>
-                        <Button />
+                        <Button text={'hola'}/>
+                        <Button text={'xd'}/>
                     </div>
                 </div>
             </div>

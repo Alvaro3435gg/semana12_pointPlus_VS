@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-image: url('../assets/Logini.svg');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  }
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar li {
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+/* shopping screen */
+
+.shopping-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.circle {
+  width: 35vh; /* Tamaño del círculo en relación a la altura de la ventana */
+  height: 35vh; /* Tamaño del círculo en relación a la altura de la ventana */
+  background-color: white;
+  border-radius: 50%; /* Esto crea un círculo */
+  margin: 7vh; /* Espacio entre los círculos en relación a la altura de la ventana */
+  background-repeat: no-repeat;
+}
+
+.circle.image1 {
+  background-image: url(../assets/ShoppingCart.svg);
+  background-size: 60%; /* Tamaño de la imagen SVG en relación al círculo */
+  background-position: center 30%; /* Centra la imagen vertical y horizontalmente */
+  background-repeat: no-repeat;
+}
+
+.circle.image2 {
+  background-image: url(../assets/cAMARINI.svg);
+  background-size: 60%; /* Tamaño de la imagen SVG en relación al círculo */
+  background-position: center 30%; /* Centra la imagen vertical y horizontalmente */
+}
+
+.circle p {
+  margin-top: 27vh; /* Elimina el margen superior para que esté justo debajo del círculo */
+  font-size: 14px;
+  color: black;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* Code Page */
+
+.aquiVaElQR {
+  width: 200px; /* Ajusta el ancho del rectángulo según tus necesidades */
+  height: 200px; /* Ajusta la altura del rectángulo según tus necesidades */
+  background: white; /* Color de fondo blanco */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Camera Page */
+
+.aquiVaLaCamara {
+  width: 200px; /* Ajusta el ancho del rectángulo según tus necesidades */
+  height: 200px; /* Ajusta la altura del rectángulo según tus necesidades */
+  background: red; /* Color de fondo blanco */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
